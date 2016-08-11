@@ -22,7 +22,7 @@
 	}],
 	"returnValue": "It returns an array consisting of the method responses. Each element is one response.",
 	"exampleOutput": [{
-		"call": "system.multicall(\n	(Array length=2)\n	{\n	  (Struct length=2)\n	  {\n		[methodName]\n		{\n		  (String) getValue\n		}\n		[params]\n		{\n		  (Array length=2)\n		  {\n			(String) JEQ0551288:2\n			(String) SETPOINT\n		  }\n		}\n	  }\n	  (Struct length=2)\n	  {\n		[methodName]\n		{\n		  (String) getValue\n		}\n		[params]\n		{\n		  (Array length=2)\n		  {\n			(String) JEQ0534326:2\n			(String) SETPOINT\n		  }\n		}\n	  }\n	}\n)",
+		"call": "system.multicall(\n\t(Array length=2)\n\t{\n\t  (Struct length=2)\n\t  {\n\t[methodName]\n\t\t{\n\t  (String) getValue\n\t\t}\n\t\t[params]\n\t\t{\n\t\t  (Array length=2)\n\t\t  {\n\t\t\t(String) JEQ0551288:2\n\t\t\t(String) SETPOINT\n\t\t  }\n\t\t}\n\t  }\n\t  (Struct length=2)\n\t  {\n\t\t[methodName]\n\t\t{\n\t\t  (String) getValue\n\t\t}\n\t\t[params]\n\t\t{\n\t\t  (Array length=2)\n\t\t  {\n\t\t\t(String) JEQ0534326:2\n\t\t\t(String) SETPOINT\n\t\t  }\n\t\t}\n\t  }\n\t}\n)",
 		"output": "KEFycmF5IGxlbmd0aD0yKQ0Kew0KICAoRmxvYXQpIDIxDQogIChGbG9hdCkgMjENCn0="
 	}]
 }

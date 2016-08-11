@@ -2,7 +2,7 @@
 	"name": "activateLinkParamset",
 	"category": "Devices",
 	"shortDescription": "Simulates a remote key press",
-	"description": "This method can be used to simulate a remote key press. For most cases, <a href=\"#setValue\">setValue</a> should be sufficient. Use \"activeLinkParamset\" if you want to execute commands that can be configured only using the link parameter set.",
+	"description": "This method can be used to simulate a remote key press. For most cases, <a href=\"#setValue\">setValue</a> should be sufficient. Use \"activateLinkParamset\" if you want to execute commands that can be configured only using the link parameter set.",
 	"signatures": [
 		"Void activateLinkParamset(Integer peerId, Integer channel, Integer remotePeerId, Integer remoteChannel)",
 		"Void activateLinkParamset(Integer peerId, Integer channel, Integer remotePeerId, Integer remoteChannel, Boolean longPress)"

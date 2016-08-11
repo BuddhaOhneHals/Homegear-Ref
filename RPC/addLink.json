@@ -5,7 +5,7 @@
 	"description": "This method links two devices so that they can send commands to each other directly.",
 	"signatures": [
 		"Void addLink(Integer senderId, Integer senderChannel, Integer receiverId, Integer receiverChannel)",
-		"Void addLink(Integer senderId, Integer senderChannel, Integer receiverId, Integer, receiverChannel, String name, String description)"
+		"Void addLink(Integer senderId, Integer senderChannel, Integer receiverId, Integer receiverChannel, String name, String description)"
 	],
 	"deprecatedSignatures": [
 		"Void addLink(String senderAddress, String receiverAddress)",
